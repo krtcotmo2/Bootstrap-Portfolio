@@ -24,6 +24,23 @@ p+p{margin:30px 0px;}
 }
 .teal{color:#4aaaa5;}
 
+.cardInfo{
+    padding:14px;
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background:rgba(255,255,255,0.9);
+    opacity: 0;
+    transition: 0.5s;
+    border: 2px solid #4aaaa5;
+    cursor: default;
+}
+.card:hover .cardInfo{
+    opacity: 1;
+    transition: 0.5s;
+}
 
 /* OVERWRITE SECTION */
 textarea:focus,
@@ -48,10 +65,36 @@ input[type="color"]:focus,
   outline: 0 none;
 }
 
-
+.card {
+    display: block;
+    width: 225px;
+    background: #ccc;
+    margin: 0 auto;
+}
 
 @media (min-width: 1200px){
     .container {
         max-width: 960px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .navbar{padding:0px; margin-bottom: 0px !important;}
+    .navbar h1, .navbar-nav{
+        width:100%;
+    }
+    .nav-item{
+        width:33%;
+        text-align: center;
+    }   
+    .card {
+        display: block;
+        width: 200px;
+        background: #ccc;
+        margin: 0 auto;
+    } 
+    .cardInfo{
+        font-size:15px;
     }
 }
