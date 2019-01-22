@@ -17,7 +17,7 @@ h1{
     font-weight: bold;
 }
 p{line-height: 24px;}
-p+p{margin:30px 0px;}
+p+p{margin:1rem 0px;}
 .bg-teal{
     background: #4aaaa5;
     border-color:#337673;
@@ -66,10 +66,8 @@ input[type="color"]:focus,
 }
 
 .card {
-    display: block;
-    width: 225px;
-    background: #ccc;
-    margin: 0 auto;
+    display: flex;
+    margin: 0 0 24px 0;
 }
 
 @media (min-width: 1200px){
@@ -88,12 +86,6 @@ input[type="color"]:focus,
         width:33%;
         text-align: center;
     }   
-    .card {
-        display: block;
-        width: 200px;
-        background: #ccc;
-        margin: 0 auto;
-    } 
     .cardInfo{
         font-size:15px;
     }

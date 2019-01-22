@@ -1,121 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Kurt Cooney</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="./assets/css/reset.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+     <link rel="stylesheet" href="./assets/css/style.css">
+     <title>Kurt Cooney</title>
+     <style>
+          .card {
+               padding: 0px;
+          }
 
+          @media (max-width: 575px) {
+               .card,
+               .col-3 {
+                    display: block;
+                    flex: none;
+               }
+          }
+
+          @media (max-width: 992px) {
+               .card {
+                    width: 100%;
+               }
+          }
+     </style>
 </head>
+
 <body>
-    <!-- NAV BAR -->
-    <nav class="navbar navbar-light bg-light bg-white mb-5 py-0">
-        <div class="container p-0">
-            <h1 class="navbar-brand h-100 bg-teal px-5 py-4 m-0 text-white" >Kurt Cooney</h1>
-            <div class="navbar-nav flex-row">
-                <a class="nav-item nav-link px-2" href="index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link px-2 active" href="portfolio3.html">Portfolio</a>
-                <a class="nav-item nav-link px-2" href="contact.html">Contact</a>
-            </div>            
-        </div>
-    </nav>    
+     <!-- NAV BAR -->
+     <nav class="navbar navbar-light bg-light bg-white mb-5 py-0">
+          <div class="container p-0">
+               <h1 class="navbar-brand h-100 bg-teal px-5 py-4 m-0 text-white">Kurt Cooney</h1>
+               <div class="navbar-nav flex-row">
+                    <a class="nav-item nav-link px-2" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link px-2 active" href="portfolio2.html">Portfolio</a>
+                    <a class="nav-item nav-link px-2" href="contact.html">Contact</a>
+               </div>
+          </div>
+     </nav>
 
-    <!-- Main Container-->
-    <div class="container bg-white pt-4">
-        <div class="row m-4">
-            <div class="col-12">
-            <h1 class="m-0 teal ">Portfolio</h1> 
-            <hr class="mt-4 mb-2" /> 
-        </div>
-        </div>
-        <div class="row m-4">
-            <div class="col-12">
-                <div class="row justify-content-center">
-                    <div class="col-sm-5 col-xs-12 m-2">
-                        <div class='card' >
-                            <img class='card-img-top' src='./assets/images/socialCube.png' alt='Card image cap'>
-                            <div class='card-body bg-teal'>
-                                <p class='card-text text-white'>Stand Against Racism</p>
-                            </div>
-                            <div class="cardInfo rounded">
-                                <b>Sharepoint AJAX, javascript, jQuery, CSS, HTML</b><br/>Ajax SharePoint API call to list dispalying comments left by 1000's of employees to show their support.
-                            </div> 
-                        </div>
+     <!-- Main Container-->
+     <div class="container bg-white pt-4">
+          <div class="row m-4">
+               <div class="col-12">
+                    <h1 class="m-0 teal ">Portfolio</h1>
+                    <hr class="mt-4 mb-2" />
+               </div>
+          </div>
+          <div class="row m-4">
+               <div class="col-12">
+                    <div class="row justify-content-around">
+                         <div class='card col-9 col-md-5 col-lg-3 mx-1'>
+                              <img class='card-img-top' src='./assets/images/crossword.png' alt='Card image cap'>
+                              <div class='card-body bg-teal'>
+                                   <p class='card-text text-white'>Crossword Puzzle</p>
+                              </div>
+                              <div class="cardInfo rounded">
+                                   <p><b>jQuery, CSS, HTML, Mobile Responsive</b><br/>Dynamically pulls random words from an array, finds intesection points and creates an interective crossword puzzle.</p><p><a href="https://krtcotmo2.github.io/wordGames/intersection3.html" target="_blank">Play</a></p>
+                              </div>
+                         </div>
+                         <div class='card col-9 col-md-5 col-lg-3 mx-1'>
+                              <img class='card-img-top' src='./assets/images/trivia.png' alt='Card image cap'>
+                              <div class='card-body bg-teal'>
+                                   <p class='card-text text-white'>Trivia Game</p>
+                              </div>
+                              <div class="cardInfo rounded">
+                                   <p><b>jQuery, CSS, HTML, Timer Animation, Mobile Responsive</b><br/>Trivia game drawing from set of questions. Track time for questions and between quesitons, score, offers replay, shows resultes for each answer.</p><p><a href="https://krtcotmo2.github.io/TriviaGame/" target="_blank">Play</a></p>
+                              </div>
+                         </div>
+                         <div class='card col-9 col-md-5 col-lg-3 mx-1'>
+                              <img class='card-img-top' src='./assets/images/starwars.png' alt='Card image cap'>
+                              <div class='card-body bg-teal'>
+                                   <p class='card-text text-white'>Star Wars</p>
+                              </div>
+                              <div class="cardInfo rounded">
+                                   <p><b>jQuery, CSS, HTML, Animation, Responsive</b><br />Progressive number tracking thinly veiled as a rpg combat game. Uses audio and animation. Sizing and positioning based on percentages.</p><p><a href="https://krtcotmo2.github.io/combat/" target="_blank">Play</a></p>
+                              </div>
+                         </div>
+                         <div class='card col-9 col-md-5 col-lg-3 mx-1'>
+                              <img class='card-img-top' src='./assets/images/oscars.png' alt='Card image cap'>
+                              <div class='card-body bg-teal'>
+                                   <p class='card-text text-white'>The Oscars</p>
+                              </div>
+                              <div class="cardInfo rounded">
+                                   <b>jQuery, AJAX, Local Storage, Responsive</b><br />API calls gifs based on search criteria of Oscar winners. Favorites saved to local storage. Swapped and reordered items if mutliple calls to same actor is made.</p><p><a href="https://krtcotmo2.github.io/giphy/" target="_blank">Play</a></p>
+                              </div>
+                         </div>
+                         <div class='card col-9 col-md-5 col-lg-3 mx-1'>
+                              <img class='card-img-top' src='./assets/images/rps.png' alt='Card image cap'>
+                              <div class='card-body bg-teal'>
+                                   <p class='card-text text-white'>Real-time Interactions</p>
+                              </div>
+                              <div class="cardInfo rounded">
+                                   <p><b>Firebase, jQuery, CSS, HTML, Responsive</b><br />Firestore event tracking allows for real-time multi-player Rock Paper Scissors. Allowing numerous players with multiple duels occuring at the same time.</p><p><a href="https://krtcotmo2.github.io/multiPlayerGame/" target="_blank">Play</a></p>
+                              </div>
+                         </div>
+                         <div class='card col-9 col-md-5 col-lg-3 mx-1'>
+                              <img class='card-img-top' src='./assets/images/myNextmeal.png' alt='Card image cap'>
+                              <div class='card-body bg-teal'>
+                                   <p class='card-text text-white'>My Next Meal</p>
+                              </div>
+                              <div class="cardInfo rounded">
+                                   <p><b>Firebase, Authentication, API, jQuery, CSS, HTML, Mobile Responsive</b><br />Project management, quality control, backend api calls, front end rendering, geo-location and Bing Maps.</p><p><a href="https://krtcotmo2.github.io/multiPlayerGame/" target="_blank">Play</a></p>
+                              </div>
+                         </div>
                     </div>
-                    <div class="col-sm-5 col-xs-12 m-2">
-                        <div class='card' >
-                            <img class='card-img-top' src='./assets/images/gis.png' alt='Card image cap'>
-                            <div class='card-body bg-teal'>
-                                <p class='card-text text-white'>Lakewood Community</p>
-                            </div>
-                            <div class="cardInfo rounded">
-                                <b>ArcGIS API for JS, jQuery, CSS, HTML</b><br/>API calls to add interactivty to map showing plots, features and more within the community.
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-5 col-xs-12 m-2">
-                            <div class='card' >
-                            <img class='card-img-top' src='./assets/images/chart.png' alt='Card image cap'>
-                            <div class='card-body bg-teal'>
-                                <p class='card-text text-white'>Capacity Charts and Intakes</p>
-                            </div>
-                            <div class="cardInfo rounded">
-                                <b>.Net, SQL, AJAX, CSS, HTML</b><br/>Tracks new projects and graphs out expected work levels for each member of the team.
-                            </div> 
-                        </div>
-                    </div>
-                    <div class="col-sm-5 col-xs-12 m-2">
-                        <div class='card' >
-                            <img class='card-img-top' src='./assets/images/incidents.png' alt='Card image cap'>
-                            <div class='card-body bg-teal'>
-                                <p class='card-text text-white'>Emergency Response</p>
-                            </div>
-                            <div class="cardInfo rounded">
-                                <b>.Net, SQL, AJAX, CSS, HTML</b><br/>Reports and tracks events across teh company and their impact on employees, stores and towers.
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-sm-5 col-xs-12 m-2">
-                        <div class='card' >
-                            <img class='card-img-top' src='./assets/images/tileSankey.png' alt='Card image cap'>
-                            <div class='card-body bg-teal'>
-                                <p class='card-text text-white'>Career Movement</p>
-                            </div>
-                            <div class="cardInfo rounded">
-                                <b>.Net, SQL, AJAX, jQuery, D3, CSS, HTML</b><br/>Displays career paths of existing and previous employees regarding thier career tenure. Used by recruiting and career managers.
-                            </div> 
-                        </div>
-                            <!-- <div class='card px-0 col-md-4 offset-md-2 col-lg-3 offset-lg-2 h-100 float-left example-popover' data-placement="left" data-html="true" data-content="<b>jQuery, CSS, HTML</b><br/>Breaks down the current VP org structure and includes responisibilites and bios."> -->
-                    </div>
-                    <div class="col-sm-5 col-xs-12 m-2">
-                            <div class='card' >
-                            <img class='card-img-top' src='./assets/images/leadership.png' alt='Card image cap'>
-                        <div class='card-body bg-teal'>
-                            <p class='card-text text-white'>Leaderhsip Bios</p>
-                        </div>   
-                        <div class="cardInfo rounded">
-                                <b>jQuery, CSS, HTML</b><br/>Breaks down the current VP org structure and includes responisibilites and bios.
-                        </div>                                 
-                    </div>
-                            
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </div>
+               </div>
+          </div>
 
-    <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+     </div>
+
+     <!-- SCRIPTS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
 
 </body>
+
 </html>
