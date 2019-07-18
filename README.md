@@ -5,11 +5,11 @@ Part of the requirements for the bootcamp was to use a generic template for a po
 
 [<img src='https://github.com/krtcotmo2/Bootstrap-Portfolio/blob/master/assets/images/portAbout.png'>](https://krtcotmo2.github.io/Bootstrap-Portfolio/index.html)
 
-## About Me
+## [About Me](https://krtcotmo2.github.io/Bootstrap-Portfolio/index.html)
 The early draft of our “elevator” pitch that is meant to give an overview of our skills while being engaging.
 
-## Portfolio
+## [Portfolio](https://krtcotmo2.github.io/Bootstrap-Portfolio/portfolio3.html)
 A collection of works created. I added some CSS animation for the rollover event to explain the technology used in each activity, skills learned as well as a link to the exercise.
 
-## Contact Me
+## [Contact Me](https://krtcotmo2.github.io/Bootstrap-Portfolio/contact.html)
 While the page looks functional, the components of the backend were not available so not server side script was added to implement the submit feature.
