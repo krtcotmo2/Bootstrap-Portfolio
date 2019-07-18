@@ -3,6 +3,8 @@
 ## Overview
 Part of the requirements for the bootcamp was to use a generic template for a portfolio. This version contains an assortment of activities that we had created up to that point.
 
+[<img src='https://github.com/krtcotmo2/Bootstrap-Portfolio/blob/master/assets/images/portAbout.png'>](https://krtcotmo2.github.io/Bootstrap-Portfolio/index.html)
+
 ## About Me
 The early draft of our “elevator” pitch that is meant to give an overview of our skills while being engaging.
 
